@@ -1404,6 +1404,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1031712363}
   - component: {fileID: 1031712364}
+  - component: {fileID: 1031712366}
+  - component: {fileID: 1031712365}
   m_Layer: 0
   m_Name: InstantGamesBridge
   m_TagString: Untagged
@@ -1444,10 +1446,34 @@ MonoBehaviour:
   ignoreDelayIntVK: 0
   ignoreDelayIntYG: 0
   showRewarded: 1
-  setAuthVK: 1
-  setAuthYG: 1
-  yandexScopes: 1
+--- !u!114 &1031712365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031712362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0414cf6a38e5543cfa069c81cf3f8946, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   vkShareLink: https://vk.com/mewton.games
+--- !u!114 &1031712366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031712362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e99ae53f7674bbb82ba7fa8d994963, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  setAuthVK: 0
+  setAuthYG: 0
+  yandexScopes: 1
 --- !u!1 &1167812837
 GameObject:
   m_ObjectHideFlags: 0
